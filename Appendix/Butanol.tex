@@ -6,39 +6,39 @@
 %  \caption{Add caption}
     \begin{tabular}{ccc}
     \toprule
-    \multicolumn{3}{c}{Methanol} \\
+    \multicolumn{3}{c}{Butanol} \\
     \midrule
     Temperature ($^\circ$C) & Trials & TDS Reading (g/L)  \\
     \midrule
-    \multirow{5}[10]{*}{20} & 1     & 96 \\
-\cmidrule{2-3}          & 2     & 97 \\
-\cmidrule{2-3}          & 3     & 95 \\
-\cmidrule{2-3}          & 4     & 97 \\
-\cmidrule{2-3}          & 5     & 96 \\
+    \multirow{5}[10]{*}{20} & 1     & 2.5 \\
+\cmidrule{2-3}          & 2     & 2.2 \\
+\cmidrule{2-3}          & 3     & 2.6 \\
+\cmidrule{2-3}          & 4     & 2.8 \\
+\cmidrule{2-3}          & 5     & 2.4 \\
     \midrule
-    \multirow{5}[10]{*}{30} & 1     & 146 \\
-\cmidrule{2-3}          & 2     & 145 \\
-\cmidrule{2-3}          & 3     & 144 \\
-\cmidrule{2-3}          & 4     & 145 \\
-\cmidrule{2-3}          & 5     & 146 \\
+    \multirow{5}[10]{*}{30} & 1     & 29 \\
+\cmidrule{2-3}          & 2     & 21 \\
+\cmidrule{2-3}          & 3     & 20 \\
+\cmidrule{2-3}          & 4     & 18 \\
+\cmidrule{2-3}          & 5     & 19 \\
     \midrule
-    \multirow{5}[10]{*}{40} & 1     & 134 \\
-\cmidrule{2-3}          & 2     & 132 \\
-\cmidrule{2-3}          & 3     & 131 \\
-\cmidrule{2-3}          & 4     & 133 \\
-\cmidrule{2-3}          & 5     & 130 \\
+    \multirow{5}[10]{*}{40} & 1     & 14 \\
+\cmidrule{2-3}          & 2     & 15 \\
+\cmidrule{2-3}          & 3     & 13 \\
+\cmidrule{2-3}          & 4     & 14 \\
+\cmidrule{2-3}          & 5     & 13 \\
     \midrule
-    \multirow{5}[10]{*}{50} & 1     & 151 \\
-\cmidrule{2-3}          & 2     & 148 \\
-\cmidrule{2-3}          & 3     & 152 \\
-\cmidrule{2-3}          & 4     & 154 \\
-\cmidrule{2-3}          & 5     & 149 \\
+    \multirow{5}[10]{*}{50} & 1     & 33 \\
+\cmidrule{2-3}          & 2     & 31 \\
+\cmidrule{2-3}          & 3     & 32 \\
+\cmidrule{2-3}          & 4     & 34 \\
+\cmidrule{2-3}          & 5     & 33 \\
     \midrule
-    \multirow{5}[10]{*}{60} & 1     & 116 \\
-\cmidrule{2-3}          & 2     & 112 \\
-\cmidrule{2-3}          & 3     & 113 \\
-\cmidrule{2-3}          & 4     & 115 \\
-\cmidrule{2-3}          & 5     & 110 \\
+    \multirow{5}[10]{*}{60} & 1     & 266 \\
+\cmidrule{2-3}          & 2     & 265 \\
+\cmidrule{2-3}          & 3     & 267 \\
+\cmidrule{2-3}          & 4     & 266 \\
+\cmidrule{2-3}          & 5     & 265 \\
     \bottomrule
     \end{tabular}%
   \label{tab:addlabel}%
@@ -57,19 +57,19 @@
                 ymajorgrids=true,
                 xmajorgrids=true,
                 grid style=dashed,
-                legend entries={\textit{TDS} (\textit{Methanol})}
+                legend entries={\textit{TDS} (\textit{Butanol})}
             ]
             
-            \addplot+[
-                color=red,
+			\addplot+[
+                color=cyan,
                 mark=square,
                 ] plot[error bars/.cd, y dir=both, y explicit, x dir=both, x explicit]
                 coordinates {
-                (20,96.2) +- (2,10)
-                (30,145.2) +- (2,10)
-                (40,132) +- (2,10)
-                (50,150.8) +- (2,10)
-                (60,113.2) +- (2,10)
+                (20,1.2) +- (2,7)
+                (30,16.8) +- (2,7)
+                (40,38.2) +- (2,7)
+                (50,44.6) +- (2,7)
+                (60,122.4) +- (2,7)
                 };
                 
             \end{axis}
