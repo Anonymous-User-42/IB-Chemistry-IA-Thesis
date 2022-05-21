@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.8.23)  4 APR 2022 22:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.8.23)  6 APR 2022 16:30
 entering extended mode
 **./main.tex
 (main.tex
@@ -1586,7 +1586,14 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-[5]) [6]
+[5])
+Overfull \hbox (8.69632pt too wide) in paragraph at lines 14--15
+\OT1/ptm/m/n/12 The \OT1/ptm/b/n/12 cubic regression \OT1/ptm/m/n/12 of all \OT
+1/ptm/b/n/12 data points \OT1/ptm/m/n/12 within the given \OT1/ptm/b/n/12 data 
+set \OT1/ptm/m/n/12 of \OT1/ptm/b/n/12 experimentally
+ []
+
+[6]
 Overfull \hbox (19.13448pt too wide) in paragraph at lines 23--24
 []\OT1/ptm/m/n/12 The solubility of all alcohols generally \OT1/ptm/b/n/12 incr
 eases \OT1/ptm/m/n/12 with \OT1/ptm/b/n/12 increase in temperature\OT1/ptm/m/n/
@@ -1637,9 +1644,37 @@ Overfull \hbox (2.43204pt too wide) in paragraph at lines 11--12
 /ptm/b/n/12 Total Dissolved Solids in the Alcohol
  []
 
-) (Sections/Limitations of Study.tex) (Sections/Safety Measures.tex [8])
-(Sections/Sources of Error.tex) (Sections/Conclusion.tex) [9]
-(Works Cited/Bib.tex
+) (Sections/Limitations of Study.tex) (Sections/Safety Measures.tex
+Overfull \hbox (20.51591pt too wide) in paragraph at lines 3--4
+\OT1/ptm/m/n/12 The following are the safety precautions that were implemented 
+during the experiment: 
+ []
+
+[8]
+! Missing } inserted.
+<inserted text> 
+                }
+l.11 	\end{itemize}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+) (Sections/Sources of Error.tex
+Overfull \hbox (19.6985pt too wide) in paragraph at lines 6--7
+\OT1/ptm/m/n/12 experiment, there are uncertainties that cannot be minimized in
+ this investigation 
+ []
+
+
+Overfull \hbox (0.42682pt too wide) in paragraph at lines 7--8
+[]\OT1/ptm/m/n/12 Assumptions and conditions are applied to the system to analy
+ze its dynamic
+ []
+
+) (Sections/Conclusion.tex) [9] (Works Cited/Bib.tex
 ! Misplaced alignment tab character &.
 l.15 “Oxalic Acid | Formula, Uses, &
                                        Facts.” \emph{Encyclopedia Britanni...
@@ -2373,7 +2408,7 @@ kTek/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/MikTek/fonts/type1/urw/symbo
 l/usyr.pfb><C:/MikTek/fonts/type1/urw/times/utmb8a.pfb><C:/MikTek/fonts/type1/u
 rw/times/utmbi8a.pfb><C:/MikTek/fonts/type1/urw/times/utmr8a.pfb><C:/MikTek/fon
 ts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (21 pages, 209411 bytes).
+Output written on main.pdf (21 pages, 209080 bytes).
 PDF statistics:
  261 PDF objects out of 1000 (max. 8388607)
  51 named destinations out of 1000 (max. 500000)
