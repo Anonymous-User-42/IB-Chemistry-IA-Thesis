@@ -33,6 +33,7 @@
 %\usepackage[T1]{fontenc}
 \usepackage{booktabs}
 \usepackage{multirow}
+\usepackage{mathptmx}
 
 
 \definecolor{codegreen}{rgb}{0,0.6,0}
@@ -71,8 +72,9 @@
 \renewcommand{\contentsname}{\textit{Contents}\hline}
 %\renewcommand{\refname}{\textit{Bibliography}}
 %\renewcommand{\refname}{Bibliography}
-\renewcommand{\refname}{\textit{References}}
+%\renewcommand{\refname}{\textit{References}}
 %\renewcommand{\refname}{References}
+\renewcommand{\refname}{Works Cited}
 \renewcommand{\listfigurename}{\textit{List of Figures}\hline}
 \renewcommand{\listtablename}{\textit{List of Tables}\hline}
 
@@ -89,7 +91,7 @@
 
 
 
-\input{Front matter/Title Page v3}
+\input{Front matter/Title Page v5}
 
 
 
@@ -97,20 +99,24 @@
 
 \maketitle
 
-\tableofcontents
-\clearpage
+%\tableofcontents
+%\clearpage
 %\listoffigures
 %\listoftables
 
 
 
-\begin{abstract}
-    \import{Sections}{Abstract}
-\end{abstract}
+%\begin{abstract}
+%    \import{Sections}{Abstract}
+%\end{abstract}
 
 
 
-\section{\textit{Introduction}}
+\section{{Research Question}}
+		
+	\import{Sections}{Research Question}
+		
+\section{{Introduction}}
         
         \import{Sections}{Introduction}       
         
@@ -122,13 +128,17 @@
         
 %        \import{Sections}{Hypothesis}    
         
-%\section{\textit{Background Research}}
+\section{{Background Research}}
         
-%        \import{Sections}{Background Research}
+        \import{Sections}{Background Research v2}
 
-\section{\textit{Methodology}}
+\section{{Methodology}}
 
 	\import{Sections}{Methodology}
+        
+\section{{Hypothesis}}        
+        
+	\import{Sections}{Hypothesis v2}
         
 %\section{\textit{Materials Required}}
         
@@ -150,7 +160,7 @@
         
 %        \import{Sections}{Equation}
 
-\section{\textit{Data}}
+\section{{Data}}
 
 	  \import{Sections}{Data Mod 1}      
         
@@ -174,7 +184,7 @@
         
 %        \import{Sections}{Observations from Derived Data}
         
-\section{\textit{Analysis}}
+\section{{Analysis}}
         
 %        \import{Sections}{Graphical Analysis}
 
@@ -182,23 +192,23 @@
         
 %        \import{Sections}{Numerical Analysis}
         
-%\section{\textit{Evaluation}}
+\section{{Evaluation}}
         
-%        \import{Sections}{Evaluation}
+        \import{Sections}{Evaluation}
         
-\section{\textit{Limitations of Study}}
+\section{{Limitations of Study}}
         
         \import{Sections}{Limitations of Study}
     
-\section{\textit{Safety Measures}}
+\section{{Safety Measures}}
         
         \import{Sections}{Safety Measures} 
                 
-\section{\textit{Sources of Error}}
+\section{{Sources of Error}}
         
         \import{Sections}{Sources of Error}
         
-\section{\textit{Conclusion}}
+\section{{Conclusion}}
         
         \import{Sections}{Conclusion}
 
@@ -208,7 +218,7 @@
 %	Hash the \clearpage function to render the document with Bibliography/References Chapter/Section right after the Conclusion Chapter/Section
 
         
-%\clearpage
+\clearpage
 
 \import{Works Cited}{Bib}
 
@@ -216,11 +226,11 @@
 % Hash the 3 functions below when excluding the Appendix Chapter/Section environment
 
 
-%\clearpage
+\clearpage
 
-%\appendix
+\appendix
 
-%\import{Appendix}{appdix}
+\import{Appendix}{appdix}
 
 
 \end{document}
